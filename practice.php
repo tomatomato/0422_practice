@@ -5,6 +5,14 @@
     <title>Document</title>
 </head>
 <body>
-    <?php echo 'Test';?>
+    <?php
+    //これはコメントです
+    #これもコメントです
+    /*これもコメントで複数行かけます*/
+    echo 'Test';
+    print 'Test';
+    echo "print",(300*1.08),"Yen";
+    print('Test');
+    ?>
 </body>
 </html>
